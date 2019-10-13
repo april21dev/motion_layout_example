@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="quick_setting_icon_width_start">30dp</dimen>
+    <dimen name="quick_setting_icon_width">40dp</dimen>
+    <dimen name="quick_setting_margin_top">20dp</dimen>
+
+</resources>

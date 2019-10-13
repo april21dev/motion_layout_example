@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layoutDescription="@xml/scene_quick_setting"
+        tools:motionProgress="0">
+
+    <ImageView
+            android:id="@+id/likeCat"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/free_cat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+            android:id="@+id/backgroundView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/quick_setting_background"
+            app:layout_constraintBottom_toBottomOf="@+id/view9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  Row 1  -->
+    <ImageView
+            android:id="@+id/view1"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cake_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view2"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_fingerprint_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view3"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_volume_up_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view4"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_access_alarms_black_24dp" />
+
+    <!--  Row 2  -->
+    <ImageView
+            android:id="@+id/view5"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_airplanemode_active_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view6"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_bluetooth_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view7"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_bug_report_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view8"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cloud_queue_black_24dp" />
+
+    <!--  Row 3  -->
+
+    <ImageView
+            android:id="@+id/view9"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view10"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_location_on_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view11"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_screen_rotation_black_24dp" />
+
+    <ImageView
+            android:id="@+id/view12"
+            android:layout_width="@dimen/quick_setting_icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_thumb_up_black_24dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

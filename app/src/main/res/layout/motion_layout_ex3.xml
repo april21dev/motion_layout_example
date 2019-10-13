@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/motionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_03"
+        app:showPaths="true">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_999_icon_gnb_info_off"
+            app:altSrc="@drawable/ic_999_icon_gnb_info_on" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
